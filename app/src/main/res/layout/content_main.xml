@@ -1,81 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="com.rajatsaini.android.udacityp0.MainActivity"
-    tools:showIn="@layout/activity_main">
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="16dp"
-        android:text="My Nanodegree Apps!"
-        android:textSize="22sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="com.rajatsaini.android.udacityp0.MainActivity"
+        tools:showIn="@layout/activity_main">
 
-    <Button
-        android:id="@+id/btn1"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:layout_marginTop="2dp"
-        android:onClick="clickEvenHandler"
-        android:background="#F08C35"
-        android:text="SPOTIFY STREAMER" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="16dp"
+            android:text="My Nanodegree Apps!"
+            android:textSize="22sp" />
 
-    <Button
-        android:id="@+id/btn2"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:onClick="clickEvenHandler"
-        android:background="#F08C35"
-        android:text="SCORES APP" />
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:layout_marginTop="2dp"
+            android:background="#F08C35"
+            android:onClick="clickEvenHandler"
+            android:text="SPOTIFY STREAMER" />
 
-    <Button
-        android:id="@+id/btn3"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:onClick="clickEvenHandler"
-        android:background="#F08C35"
-        android:text="LIBRARY APP" />
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:background="#F08C35"
+            android:onClick="clickEvenHandler"
+            android:text="SCORES APP" />
 
-    <Button
-        android:id="@+id/btn4"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:onClick="clickEvenHandler"
-        android:background="#F08C35"
-        android:text="BUILD IT BIGGER" />
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:background="#F08C35"
+            android:onClick="clickEvenHandler"
+            android:text="LIBRARY APP" />
 
-    <Button
-        android:id="@+id/btn5"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:onClick="clickEvenHandler"
-        android:background="#F08C35"
-        android:text="XYZ READER" />
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:background="#F08C35"
+            android:onClick="clickEvenHandler"
+            android:text="BUILD IT BIGGER" />
 
-    <Button
-        android:id="@+id/btn6"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_margin="2dp"
-        android:onClick="clickEvenHandler"
-        android:background="#FF1744"
-        android:text="CAPSTONE: MY OWN APP" />
-</LinearLayout>
+        <Button
+            android:id="@+id/btn5"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:background="#F08C35"
+            android:onClick="clickEvenHandler"
+            android:text="XYZ READER" />
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="2dp"
+            android:background="#FF1744"
+            android:onClick="clickEvenHandler"
+            android:text="CAPSTONE: MY OWN APP" />
+    </LinearLayout>
+</ScrollView>
